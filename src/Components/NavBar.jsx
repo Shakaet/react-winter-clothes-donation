@@ -5,14 +5,14 @@ const Navbar = ({ user, onLoginClick }) => {
     let link=<>
 
             <li><a href="/" className='font-extrabold text-xl text-yellow-600'>Home</a></li>
-            <li><a href="/" className='font-extrabold text-xl text-yellow-600'>Donation Campaigns</a></li>
+            <li><a href="/donateCampaign" className='font-extrabold text-xl text-yellow-600'>Donation Campaigns</a></li>
             <li><a href="/"className='font-extrabold text-xl text-yellow-600'>How to Help</a></li>
             <li><a href="/"className='font-extrabold text-xl text-yellow-600'>Dashboard</a></li>
     
     
     </>
   return (
-    <div className="navbar bg-base-100 shadow-md">
+    <div className="navbar bg-base-100 ">
       {/* Site Logo */}
       <div className="navbar-start">
         <a href="/" className="text-3xl font-extrabold text-primary">Winter Donation</a>

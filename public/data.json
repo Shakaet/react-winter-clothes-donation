@@ -2,7 +2,7 @@
     {
       "id": 1,
       "title": "Winter Clothes for Sylhet",
-      "image": "https://example.com/images/sylhet-campaign.jpg",
+      "image": "https://i.ibb.co.com/M55G9YW/im1.jpg",
       "description": "Help us provide warm clothes to underprivileged communities in Sylhet. Many families are struggling to stay warm this winter.",
       "status": "Ongoing",
       "contactInfo": "Email: sylhet@winterdonation.com, Phone: +880176543210",
@@ -11,7 +11,7 @@
     {
       "id": 2,
       "title": "Warm Blankets for Rangpur",
-      "image": "https://example.com/images/rangpur-campaign.jpg",
+      "image": "https://i.ibb.co.com/gwB6d1B/im2.jpg",
       "description": "Join our efforts to distribute warm blankets to low-income families in Rangpur, where the winter chill is particularly harsh.",
       "status": "Ongoing",
       "contactInfo": "Email: rangpur@winterdonation.com, Phone: +880178654321",
@@ -20,7 +20,7 @@
     {
       "id": 3,
       "title": "Clothing Drive in Dhaka",
-      "image": "https://example.com/images/dhaka-campaign.jpg",
+      "image": "https://i.ibb.co.com/HYkrqSB/im3.jpg",
       "description": "Support families in Dhaka's urban slums by donating winter clothing and accessories.",
       "status": "Completed",
       "contactInfo": "Email: dhaka@winterdonation.com, Phone: +880155432198",
@@ -29,7 +29,7 @@
     {
       "id": 4,
       "title": "Blankets for Villages in Khulna",
-      "image": "https://example.com/images/khulna-campaign.jpg",
+      "image": "https://i.ibb.co.com/LxpSNN7/im4.jpg",
       "description": "Deliver blankets to families in rural areas of Khulna where winters are tough and resources are scarce.",
       "status": "Ongoing",
       "contactInfo": "Email: khulna@winterdonation.com, Phone: +880176432167",
@@ -38,7 +38,7 @@
     {
       "id": 5,
       "title": "Winter Aid for Rajshahi",
-      "image": "https://example.com/images/rajshahi-campaign.jpg",
+      "image": "https://i.ibb.co.com/nQjGMDv/im5.jpg",
       "description": "Help us distribute warm clothes to low-income families in Rajshahi, ensuring a warmer winter for all.",
       "status": "Ongoing",
       "contactInfo": "Email: rajshahi@winterdonation.com, Phone: +880179876543",
@@ -47,7 +47,7 @@
     {
       "id": 6,
       "title": "Warmth for Barishal",
-      "image": "https://example.com/images/barishal-campaign.jpg",
+      "image": "https://i.ibb.co.com/k4WN9XF/im6th.jpg",
       "description": "Join hands to deliver sweaters and scarves to families in Barishal who are vulnerable to cold winters.",
       "status": "Upcoming",
       "contactInfo": "Email: barishal@winterdonation.com, Phone: +880167543210",
@@ -56,7 +56,7 @@
     {
       "id": 7,
       "title": "Jackets for Youth in Chattogram",
-      "image": "https://example.com/images/chattogram-campaign.jpg",
+      "image": "https://i.ibb.co.com/1vdXx1B/im7.jpg",
       "description": "Distribute jackets and hoodies to school children in Chattogram to keep them warm and comfortable.",
       "status": "Ongoing",
       "contactInfo": "Email: chattogram@winterdonation.com, Phone: +880176543219",
@@ -65,7 +65,7 @@
     {
       "id": 8,
       "title": "Sweater Campaign for Sylhet",
-      "image": "https://example.com/images/sylhet-sweater-campaign.jpg",
+      "image": "https://i.ibb.co.com/vJHJ8T5/im8.jpg",
       "description": "Support our initiative to distribute high-quality sweaters to children and elders in Sylhet.",
       "status": "Upcoming",
       "contactInfo": "Email: sylhet@winterdonation.com, Phone: +880154678910",
@@ -74,7 +74,7 @@
     {
       "id": 9,
       "title": "Warm Clothes for Rangpur Families",
-      "image": "https://example.com/images/rangpur-warm-clothes.jpg",
+      "image": "https://i.ibb.co.com/VWYynw2/im9.webp",
       "description": "Help us reach Rangpur families in need by donating sweaters, jackets, and other winter essentials.",
       "status": "Ongoing",
       "contactInfo": "Email: rangpur@winterdonation.com, Phone: +880177654321",
@@ -83,7 +83,7 @@
     {
       "id": 10,
       "title": "Shoes and Socks for Dhaka's Kids",
-      "image": "https://example.com/images/dhaka-shoes-campaign.jpg",
+      "image": "https://i.ibb.co.com/KX64dB9/im10.jpg",
       "description": "Provide winter footwear to children in Dhaka to keep them warm and healthy during the colder months.",
       "status": "Completed",
       "contactInfo": "Email: dhaka@winterdonation.com, Phone: +880155654321",
