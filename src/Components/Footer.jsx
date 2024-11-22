@@ -2,9 +2,9 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="bg-base-200 text-base-content py-10">
+    <footer className="bg-base-200 text-base-content py-10 mt-10">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Contact Information */}
           <div>
             <h2 className="text-xl font-bold mb-4">Contact Us</h2>
@@ -16,7 +16,7 @@ const Footer = () => {
           {/* Social Media Links */}
           <div>
             <h2 className="text-xl font-bold mb-4">Follow Us</h2>
-            <div className="flex space-x-4">
+            <div className="flex space-x-4 justify-center sm:justify-start">
               <a
                 href="https://facebook.com"
                 target="_blank"

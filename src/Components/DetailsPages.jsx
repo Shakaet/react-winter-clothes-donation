@@ -19,7 +19,7 @@ const DetailsPages = () => {
     e.preventDefault();
 
     // Show a success toast message
-    toast.success('Thank you! We will reach your destination soon.');
+    toast.success('Thank you! Successfully Donated.');
 
     // Clear form fields after submission
     setQuantity('');

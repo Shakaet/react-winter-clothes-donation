@@ -5,7 +5,7 @@ import DataLoad from './DataLoad';
 const Campaigns = () => {
 
     let data= useLoaderData()
-    console.log(data)
+    // console.log(data)
     return (
         <div>
            

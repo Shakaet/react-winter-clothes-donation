@@ -6,11 +6,19 @@ import MainLayout from './Components/MainLayout';
 import Home from './Components/Home';
 import Campaigns from './Components/Campaigns';
 import DetailsPages from './Components/DetailsPages';
+import Login from './Components/Login';
+import Register from './Components/Register';
+import Dashboard from './Components/Dashboard';
+import UpdateProfile from './Components/UpdateProfile';
+import ForgetPass from './Components/ForgetPass';
+import PrivateRoute from './Components/PrivateRoute';
+import HowToHelp from './Components/HowToHelp';
+import ErrorPage from './Components/ErrorPage';
 
 const router = createBrowserRouter([
     {
       path: "/",
-      errorElement: <h2>Not Error</h2>,
+      errorElement: <ErrorPage></ErrorPage>,
       element: <MainLayout></MainLayout>,
       children:[
         {
@@ -24,10 +32,41 @@ const router = createBrowserRouter([
         },
         {
             path:"/donation/:id",
-            element:<DetailsPages></DetailsPages>,
+            element:<PrivateRoute><DetailsPages></DetailsPages></PrivateRoute>,
             loader:()=>fetch("/data.json")
             
-        }
+        },
+        {
+          path:"/HowToHelp",
+          element:<HowToHelp></HowToHelp>,
+          
+          
+      },
+
+        {
+          path:"/dashboard",
+          element:<PrivateRoute><Dashboard></Dashboard></PrivateRoute>
+        },
+        {
+          path:"/update-profile",
+          element:<UpdateProfile></UpdateProfile>
+
+        },
+        {
+          path:"/login",
+          element:<Login></Login>
+
+        },
+        {
+          path:"/forget-password",
+          element:<ForgetPass></ForgetPass>
+        },
+        {
+          path:"/register",
+          element:<Register></Register>
+        },
+        
+
       ]
     },
   ]);

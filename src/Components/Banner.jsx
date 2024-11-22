@@ -16,13 +16,13 @@ const Banner = () => {
         />
         <div className="absolute flex items-center justify-center h-full w-full bg-blue-800 bg-opacity-50 px-4">
           <div className="text-center text-white font-bold max-w-xl">
-            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold animate__animated animate__backInDown">
               Support Local Communities
             </h1>
-            <p className="mt-4 text-sm sm:text-lg md:text-xl">
+            <p className="mt-4 text-sm sm:text-lg md:text-2xl animate__animated animate__backInLeft">
               Your donations can bring warmth and comfort to families in need this winter.
             </p>
-            <button className="mt-6 px-6 py-3 bg-white text-blue-700 rounded-full shadow-md hover:bg-blue-100">
+            <button className="mt-6 px-6 py-3 bg-white text-blue-700 rounded-full shadow-md hover:bg-blue-100 animate__animated animate__backInUp">
               Donate Now
             </button>
           </div>

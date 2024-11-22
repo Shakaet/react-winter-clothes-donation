@@ -4,7 +4,7 @@ const HowItWorks = () => {
   return (
     <div className="bg-gray-50 py-16 px-4 sm:px-8 md:px-16 lg:px-32">
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-5xl sm:text-4xl font-extrabold text-gray-600">
+        <h2 className="text-5xl sm:text-4xl font-extrabold text-gray-600 animate__animated animate__backInLeft">
           How It Works
         </h2>
         <p className="mt-4 text-lg sm:text-xl font-bold text-gray-700">

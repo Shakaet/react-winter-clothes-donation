@@ -5,7 +5,7 @@ const About = () => {
   return (
 
     <div className="bg-blue-50 py-16 px-4 sm:px-8 md:px-16 lg:px-32">
-        <h1 className="text-center text-5xl font-extrabold mb-20 mt-5 text-gray-600">About</h1>
+        <h1 className="text-center text-5xl font-extrabold mb-20 mt-5 text-gray-600 animate__animated animate__backInRight">About</h1>
       <div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-center lg:space-x-12">
         <div className="">
           <img

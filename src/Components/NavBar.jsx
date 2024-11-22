@@ -1,13 +1,32 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { Link, NavLink, useNavigate } from 'react-router-dom';
+import { Context } from './AuthProvider';
 
-const Navbar = ({ user, onLoginClick }) => {
+const Navbar = () => {
+
+  let {user,signOuts}= useContext(Context)
+
+  let l=useNavigate()
+
+  let handleLogOut=()=>{
+    signOuts()
+    .then(()=>{
+      l("/login")
+
+    })
+    .catch((error)=>{
+      // console.log(error)
+    })
+  }
+
+ 
 
     let link=<>
 
-            <li><a href="/" className='font-extrabold text-xl text-yellow-600'>Home</a></li>
-            <li><a href="/donateCampaign" className='font-extrabold text-xl text-yellow-600'>Donation Campaigns</a></li>
-            <li><a href="/"className='font-extrabold text-xl text-yellow-600'>How to Help</a></li>
-            <li><a href="/"className='font-extrabold text-xl text-yellow-600'>Dashboard</a></li>
+            <li><NavLink to="/" className='font-extrabold text-xl text-yellow-600'>Home</NavLink></li>
+            <li><NavLink to="/donateCampaign" className='font-extrabold text-xl text-yellow-600'>Donation Campaigns</NavLink></li>
+            <li><NavLink to="/HowToHelp"className='font-extrabold text-xl text-yellow-600'>How to Help</NavLink></li>
+            <li><NavLink to="/dashboard"className='font-extrabold text-xl text-yellow-600'>Dashboard</NavLink></li>
     
     
     </>
@@ -15,11 +34,11 @@ const Navbar = ({ user, onLoginClick }) => {
     <div className="navbar bg-base-100 ">
       {/* Site Logo */}
       <div className="navbar-start">
-        <a href="/" className="text-3xl font-extrabold text-primary">Winter Donation</a>
+        <a href="/" className="text-3xl font-extrabold text-primary animate__animated animate__rubberBand">Winter Donation</a>
       </div>
 
       {/* Navigation Links */}
-      <div className="navbar-center hidden lg:flex">
+      <div className="navbar-center hidden lg:flex animate__animated animate__backInDown">
         <ul className="menu menu-horizontal px-1">
           {link}
         </ul>
@@ -55,19 +74,29 @@ const Navbar = ({ user, onLoginClick }) => {
       {/* User Profile or Login Button */}
       <div className="navbar-end">
         {user ? (
-          <div className="flex items-center gap-2">
+          <div className="flex flex-row items-center gap-2">
             <img
               src={user.photoURL}
               alt="User Profile"
-              className="w-10 h-10 rounded-full"
+              className="w-14 h-14 rounded-full"
             />
-            <span className="hidden md:inline-block">{user.displayName}</span>
+            <Link  onClick={handleLogOut} className="btn btn-primary">LogOut</Link>
           </div>
         ) : (
-          <button className="btn btn-primary" onClick={onLoginClick}>
+          <Link to="/login" className="btn btn-primary">
             Login
-          </button>
+          </Link>
         )}
+         {/* {user? (
+          <div>
+            <img src={user.photoURL} alt="" />
+            <button onClick={handleLogOut}>logout</button>
+          </div>
+        ) : (
+          <NavLink to="/login">
+            <button className="btn mr-4 btn-primary">Login</button>
+          </NavLink>
+        )} */}
       </div>
     </div>
   );

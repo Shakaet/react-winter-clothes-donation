@@ -5,10 +5,10 @@ import { Outlet } from 'react-router-dom';
 
 const MainLayout = () => {
     return (
-        <div>
+        <div className='sour-gummy-font'>
             <NavBar></NavBar>
             <Outlet></Outlet>
-             {/* <Footer></Footer> */}
+             <Footer></Footer>
         </div>
     );
 };
