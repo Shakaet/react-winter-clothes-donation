@@ -41,18 +41,17 @@ Here are the npm packages used in this project:
 - `react-dom`
 - `react-router-dom`
 - `tailwindcss`
-- `animate.css`
+- `AOS Package`
+- `Animate.css`
+- `Lottie React`
+- `React-simple-typewriter`
+- `React Awesome reveal `
+- `React-tooltip`
 
 ---
 
 
-<!-- // 
-AOS Package, 
-Animate.css, 
-Lottie React 
-React-simple-typewriter
-React Awesome reveal 
-React-tooltip -->
+
 
 
 
