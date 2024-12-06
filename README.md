@@ -46,3 +46,13 @@ Here are the npm packages used in this project:
 ---
 
 
+<!-- // 
+AOS Package, 
+Animate.css, 
+Lottie React 
+React-simple-typewriter
+React Awesome reveal 
+React-tooltip -->
+
+
+
