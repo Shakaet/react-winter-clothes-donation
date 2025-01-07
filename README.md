@@ -65,7 +65,7 @@
 
 Follow the steps below to set up and run the project on your local machine:  
 
-### Step 1: Clone the Repository  
+### Clone the Repository  
 ```bash  
 git clone https://github.com/your-username/winter-donation.git  
 cd winter-donation  
